@@ -1,0 +1,96 @@
+% Encoding: UTF-8
+
+@Article{Karaman2011,
+  author    = {Karaman, Sertac and Frazzoli, Emilio},
+  title     = {Sampling-based algorithms for optimal motion planning},
+  journal   = {The International Journal of Robotics Research},
+  year      = {2011},
+  volume    = {30},
+  number    = {7},
+  pages     = {846--894},
+  publisher = {Sage Publications},
+}
+
+@Article{Siegwart2004,
+  author  = {Siegwart, Roland and Nourbakhsh, Illah R and Scaramuzza, Davide},
+  title   = {Autonomous mobile robots},
+  journal = {Massachusetts Institute of Technology},
+  year    = {2004},
+}
+
+@Book{Bertsekas1995,
+  title     = {Dynamic programming and optimal control},
+  publisher = {Athena Scientific Belmont, MA},
+  year      = {1995},
+  author    = {Bertsekas, Dimitri P and Bertsekas, Dimitri P and Bertsekas, Dimitri P and Bertsekas, Dimitri P},
+  volume    = {1},
+  number    = {2},
+}
+
+@Book{Bertsekas1995,
+  title     = {Dynamic programming and optimal control},
+  publisher = {Athena Scientific Belmont, MA},
+  year      = {1995},
+  author    = {Bertsekas, Dimitri P and Bertsekas, Dimitri P and Bertsekas, Dimitri P and Bertsekas, Dimitri P},
+  volume    = {1},
+  number    = {2},
+}
+
+@Book{Bertsekas1995,
+  title     = {Dynamic programming and optimal control},
+  publisher = {Athena Scientific Belmont, MA},
+  year      = {1995},
+  author    = {Bertsekas, Dimitri P and Bertsekas, Dimitri P and Bertsekas, Dimitri P and Bertsekas, Dimitri P},
+  volume    = {1},
+  number    = {2},
+}
+
+@Book{Latombe2012,
+  title     = {Robot motion planning},
+  publisher = {Springer Science \& Business Media},
+  year      = {2012},
+  author    = {Latombe, Jean-Claude},
+  volume    = {124},
+}
+
+@Book{Latombe2012,
+  title     = {Robot motion planning},
+  publisher = {Springer Science \& Business Media},
+  year      = {2012},
+  author    = {Latombe, Jean-Claude},
+  volume    = {124},
+}
+
+@Book{Latombe2012,
+  title     = {Robot motion planning},
+  publisher = {Springer Science \& Business Media},
+  year      = {2012},
+  author    = {Latombe, Jean-Claude},
+  volume    = {124},
+}
+
+@Book{Latombe2012,
+  title     = {Robot motion planning},
+  publisher = {Springer Science \& Business Media},
+  year      = {2012},
+  author    = {Latombe, Jean-Claude},
+  volume    = {124},
+}
+
+@Book{Latombe2012,
+  title     = {Robot motion planning},
+  publisher = {Springer Science \& Business Media},
+  year      = {2012},
+  author    = {Latombe, Jean-Claude},
+  volume    = {124},
+}
+
+@Book{Latombe2012,
+  title     = {Robot motion planning},
+  publisher = {Springer Science \& Business Media},
+  year      = {2012},
+  author    = {Latombe, Jean-Claude},
+  volume    = {124},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

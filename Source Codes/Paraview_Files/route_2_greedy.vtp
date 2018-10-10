@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VTKFile byte_order="LittleEndian" header_type="UInt64" type="PolyData" version="1.0">
+   <PolyData>
+      <Piece NumberOfLines="1" NumberOfPoints="41" NumberOfPolys="0" NumberOfStrips="0" NumberOfVerts="0">
+         <CellData>
+            <DataArray Name="cost" NumberOfComponents="1" RangeMax="37.5134" RangeMin="37.5134" type="Float32">37.5134</DataArray>
+            <DataArray Name="score" NumberOfComponents="1" RangeMax="1" RangeMin="1" type="Float32">1</DataArray>
+         </CellData>
+         <Points>
+            <DataArray Name="Points" NumberOfComponents="3" RangeMax="26" RangeMin="2.0825" type="Float32">21.25 4.58246 21 2.08246 26 21 2.17782 25.9281 20.9994 2.48871 25.226 21.0434 2.76412 24.6668 20.9993 3.64145 24.2181 20.8292 4.46753 23.7643 20.495 5.16793 23.0838 20.2799 5.96482 22.5263 20.047 6.60743 21.7684 19.9347 7.37191 21.1604 19.7204 8.21004 20.63 19.593 8.94436 19.9554 19.5178 9.6834 19.2862 19.4406 10.3444 18.5591 19.255 11.1215 17.9701 19.0333 11.823 17.2763 18.8705 12.5683 16.6249 18.7283 13.3405 16.0066 18.5817 14.1126 15.4102 18.3622 14.7777 15.8814 18.9415 15.6676 15.5514 19.2564 16.4586 15.7246 18.6697 17.2849 15.7605 19.2319 18.0779 15.1634 19.1113 18.9859 14.989 18.7302 19.5039 14.2973 19.2334 20.4555 14.5662 19.3823 21.3024 14.0448 19.2782 21.0804 13.3567 19.9691 21.0996 12.357 19.9534 21.7282 11.6989 20.3678 21.4225 10.7837 20.6305 21.6144 9.80892 20.5169 22.3691 9.15287 20.521 22.0611 8.27287 20.1595 22.8325 7.63657 20.1633 22.6265 6.70373 20.4589 22.6378 5.70411 20.4338 21.9801 5.21771 20.724 21.5947 4.85451 20.7834</DataArray>
+         </Points>
+         <Lines>
+            <DataArray Name="connectivity" NumberOfComponents="1" RangeMax="40" RangeMin="0" type="Int32">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 0</DataArray>
+            <DataArray Name="offsets" NumberOfComponents="1" RangeMax="41" RangeMin="41" type="Int32">41</DataArray>
+         </Lines>
+      </Piece>
+   </PolyData>
+</VTKFile>

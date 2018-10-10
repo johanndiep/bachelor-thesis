@@ -1,0 +1,38 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: report.aux
+The style file: bibliography/IEEEtranN.bst
+Database file #1: bibliography/references.bib
+Repeated entry---line 30 of file bibliography/references.bib
+ : @book{Bertsekas1995
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 39 of file bibliography/references.bib
+ : @book{Bertsekas1995
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 56 of file bibliography/references.bib
+ : @book{Latombe2012
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 64 of file bibliography/references.bib
+ : @book{Latombe2012
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 72 of file bibliography/references.bib
+ : @book{Latombe2012
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 80 of file bibliography/references.bib
+ : @book{Latombe2012
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 88 of file bibliography/references.bib
+ : @book{Latombe2012
+ :                  ,
+I'm skipping whatever remains of this entry
+-- IEEEtranN.bst version 1.13 (2008/09/30) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+** Natbib version - not for normal IEEE work.
+
+Done.
+(There were 7 error messages)

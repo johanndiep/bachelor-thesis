@@ -1,0 +1,14 @@
+NAME : tmp.153221.tour
+COMMENT : Length = 153221
+COMMENT : Found by LKH [Keld Helsgaun] Wed Jun 29 06:22:21 2016
+TYPE : TOUR
+DIMENSION : 6
+TOUR_SECTION
+1
+2
+5
+3
+6
+4
+-1
+EOF

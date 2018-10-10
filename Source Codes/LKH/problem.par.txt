@@ -1,0 +1,2 @@
+PROBLEM_FILE = tmp.tsp
+OUTPUT_TOUR_FILE = tmp.out

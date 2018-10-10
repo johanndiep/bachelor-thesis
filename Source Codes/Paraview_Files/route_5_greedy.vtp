@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VTKFile byte_order="LittleEndian" header_type="UInt64" type="PolyData" version="1.0">
+   <PolyData>
+      <Piece NumberOfLines="1" NumberOfPoints="45" NumberOfPolys="0" NumberOfStrips="0" NumberOfVerts="0">
+         <CellData>
+            <DataArray Name="cost" NumberOfComponents="1" RangeMax="42.2794" RangeMin="42.2794" type="Float32">42.2794</DataArray>
+            <DataArray Name="score" NumberOfComponents="1" RangeMax="1" RangeMin="1" type="Float32">1</DataArray>
+         </CellData>
+         <Points>
+            <DataArray Name="Points" NumberOfComponents="3" RangeMax="47.4175" RangeMin="11.583" type="Float32">40.4175 26 21 21.25 47.4175 21 21.2926 47.2837 20.8236 21.685 46.9968 20.1819 21.8603 46.8987 20.0099 22.3673 46.6464 19.2047 23.0142 46.3788 18.4906 23.282 45.4182 18.417 23.6291 44.8451 17.6745 24.0726 44.3186 16.9492 24.9806 43.9455 16.7589 25.6377 43.4852 16.1619 26.1764 42.8566 15.601 26.7544 42.2783 15.0252 27.2912 41.753 14.365 28.2684 41.965 14.3517 29.1051 41.7003 14.8311 29.7444 41.1717 14.2726 30.3825 40.64 13.7157 31.0926 40.1884 13.1755 31.7652 39.7127 12.6087 32.4388 39.1611 12.1167 32.8508 38.4226 11.583 33.5235 38.021 12.2044 34.357 37.6847 12.6429 35.3089 37.9908 12.6547 35.8332 37.3 13.1525 36.4827 36.5451 13.0614 36.6408 35.5734 12.8857 37.5593 35.1845 12.8137 38.2375 34.475 13.0051 38.6861 33.8529 13.6468 39.2901 33.0564 13.6188 39.7663 32.637 14.3917 40.4313 32.4029 15.1009 40.2602 32.7014 16.0398 39.6295 32.0931 16.5217 39.4482 31.5836 17.3628 39.0235 30.6813 17.4367 39.5402 30.0733 18.0395 39.1105 29.1924 17.8414 39.4487 28.5429 18.5224 39.5841 27.7631 19.1337 39.6989 27.01 19.7815 40.162 26.5512 20.386</DataArray>
+         </Points>
+         <Lines>
+            <DataArray Name="connectivity" NumberOfComponents="1" RangeMax="44" RangeMin="0" type="Int32">1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 0</DataArray>
+            <DataArray Name="offsets" NumberOfComponents="1" RangeMax="45" RangeMin="45" type="Int32">45</DataArray>
+         </Lines>
+      </Piece>
+   </PolyData>
+</VTKFile>

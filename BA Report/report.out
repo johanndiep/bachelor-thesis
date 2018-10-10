@@ -1,0 +1,47 @@
+\BOOKMARK [0][-]{chapter*.3}{Preface}{}% 1
+\BOOKMARK [0][-]{chapter*.4}{Abstract}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{Symbols}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Context}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Goal}{chapter.1}% 7
+\BOOKMARK [0][-]{chapter.2}{Related Work }{}% 8
+\BOOKMARK [1][-]{section.2.1}{Roadmap Path Planning}{chapter.2}% 9
+\BOOKMARK [2][-]{subsection.2.1.1}{Visibility Graph}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.2}{Voronoi Diagram}{section.2.1}% 11
+\BOOKMARK [1][-]{section.2.2}{Cell Decomposition Path Planning}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Potential Field Path Planning}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{Sampling-Based Algorithms for Path Planning}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.4.1}{Rapidly-Exploring Random Tree}{section.2.4}% 15
+\BOOKMARK [2][-]{subsection.2.4.2}{Probabilistic Roadmap}{section.2.4}% 16
+\BOOKMARK [1][-]{section.2.5}{Graph-Search Algorithms}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.5.1}{Lin-Kernighan Heuristic}{section.2.5}% 18
+\BOOKMARK [2][-]{subsection.2.5.2}{Greedy Algorithm}{section.2.5}% 19
+\BOOKMARK [2][-]{subsection.2.5.3}{Label Correcting Algorithm}{section.2.5}% 20
+\BOOKMARK [0][-]{chapter.3}{Algorithm Concepts }{}% 21
+\BOOKMARK [1][-]{section.3.1}{Offline Global Path Planning Algorithm}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.1.1}{RRT* Algorithm}{section.3.1}% 23
+\BOOKMARK [1][-]{section.3.2}{Path Generation around an Object}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.2.1}{Viewpoints Calculation}{section.3.2}% 25
+\BOOKMARK [2][-]{subsection.3.2.2}{Paths and Cost Matrix Generation}{section.3.2}% 26
+\BOOKMARK [2][-]{subsection.3.2.3}{Traveling Salesman Problem}{section.3.2}% 27
+\BOOKMARK [0][-]{chapter.4}{Implementation Keypoints }{}% 28
+\BOOKMARK [1][-]{section.4.1}{2D-RRT*}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.1.1}{Runtime Improvement}{section.4.1}% 30
+\BOOKMARK [2][-]{subsection.4.1.2}{Path Curvature}{section.4.1}% 31
+\BOOKMARK [1][-]{section.4.2}{3D-RRT*}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.2.1}{3D Occupancy Grid}{section.4.2}% 33
+\BOOKMARK [1][-]{section.4.3}{Object Scanning Route}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.3.1}{Defined Sampling Region}{section.4.3}% 35
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 36
+\BOOKMARK [1][-]{section.5.1}{RRT* Path Planning in 2D}{chapter.5}% 37
+\BOOKMARK [2][-]{subsection.5.1.1}{Cost Function: Considering Euclidean Distance}{section.5.1}% 38
+\BOOKMARK [2][-]{subsection.5.1.2}{Cost Function: Considering Angular Change}{section.5.1}% 39
+\BOOKMARK [1][-]{section.5.2}{RRT* Path Planning in 3D}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.3}{Object Scanning}{chapter.5}% 41
+\BOOKMARK [2][-]{subsection.5.3.1}{Route by Greedy Algorithm}{section.5.3}% 42
+\BOOKMARK [2][-]{subsection.5.3.2}{Route by LKH Algorithm}{section.5.3}% 43
+\BOOKMARK [0][-]{chapter.6}{Summary}{}% 44
+\BOOKMARK [1][-]{section.6.1}{Conclusion}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.2}{Outlook}{chapter.6}% 46
+\BOOKMARK [0][-]{chapter*.12}{Bibliography}{}% 47

@@ -1,0 +1,175 @@
+%==============================================================================
+% ETHASL - Template for student projects at the ASL
+% 2013.10: Péter Fankhauser
+% This template is based on the IMRT Latex template by Eric A. Mueller.
+%==============================================================================
+
+\documentclass[10pt,twoside,a4paper]{report}
+
+% ETHASL package
+% TODO Choose options according to your project
+% som/bt/st/mt: Studies on Mechatronics, Bachelor Thesis, Semester Thesis, Master Thesis
+% fs/hs: Spring term, Autumn term
+% german/english: German/English
+
+\usepackage[bt,hs,english]{packages/ethasl}
+\usepackage[linesnumbered]{algorithm2e}
+\usepackage[noend]{algpseudocode}
+\usepackage{textcomp}
+\usepackage{listings}
+\renewcommand{\lstlistingname}{Code}
+\definecolor{listinggray}{gray}{0.9}
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+
+%---------------------------------------CODE------------------------------------------ %%
+\lstset{
+	backgroundcolor=\color{lbcolor},
+	tabsize=2,
+	rulecolor=,
+	language=C++,
+	%basicstyle=\scriptsize, % noch kleinerer Code
+	basicstyle=\ttfamily, %mittlerer Code
+	upquote=true,
+	%aboveskip={1.5\baselineskip},
+	columns=fixed,
+	showstringspaces=false,
+	extendedchars=true,
+	breaklines=true,
+	prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+	frame=single,
+	showtabs=false,
+	showspaces=false,
+	showstringspaces=false,
+	identifierstyle=\ttfamily,
+	keywordstyle=\color[rgb]{0,0,1},
+	commentstyle=\color[rgb]{0.133,0.545,0.133},
+	stringstyle=\color[rgb]{0.627,0.126,0.941},
+	numbers=left,
+	numberstyle=\tiny,
+	stepnumber=1,
+	numbersep=5pt
+}
+%----------------------------------------------------------------------------------------- %%
+
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+
+% Activate for german language
+%\usepackage{german}
+%\usepackage{ae}
+
+%\documentclass{article}
+%\usepackage{algorithm,algcompatible,amsmath}
+%\DeclareMathOperator*{\argmax}{\arg\!\max}% http://tex.stackexchange.com/q/83169/5764
+%\algnewcommand\INPUT{\item[\textbf{Input:}]}%
+%\algnewcommand\OUTPUT{\item[\textbf{Output:}]}%
+
+
+%\usepackage{algorithm2e}% http://ctan.org/pkg/algorithm2e
+%\makeatletter
+%\renewcommand{\@algocf@capt@plain}{above}% formerly {bottom}
+%\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{preambles/asl_preamble}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+% TODO Add your title
+\title{Path Planning for an Omnidirectional Underwater Robot}
+%\subtitle{bla bla bla}
+
+% TODO Add name of the authors
+\studentA{Johann Diep}
+%\studentB{Student 2}
+% \studentC{Student 3}
+
+% TODO Add name of the supervisors
+\supervisionA{Gregory Hitz}
+\supervisionB{Philipp Krüsi}
+%\supervisionC{Supervisor C}
+
+% TODO Change if necessary
+\projectYear{\the\year} % This year
+%\projectYear{\advance\year by -1 \the\year\advance\year by 1} % Last year
+
+\maketitle
+\pagestyle{plain}
+\pagenumbering{roman}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Declaration of originality
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{empty}
+
+% TODO Modify placeholders in declaration.tex
+\input{chapters/declaration}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table on contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Table of Contents depth (TODO change if necessary)
+\setcounter{tocdepth}{2}
+
+\tableofcontents
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapters standard
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/preface}
+\cleardoublepage
+\input{chapters/abstract}
+\cleardoublepage
+\input{chapters/symbols}
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapters custom
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\pagenumbering{arabic}
+
+% TODO Add your own chapters here
+\input{chapters/introduction}
+\cleardoublepage
+\input{chapters/related_work}
+\cleardoublepage
+\input{chapters/algorithm_concepts}
+\cleardoublepage
+\input{chapters/keypoints}
+\cleardoublepage
+\input{chapters/results}
+\cleardoublepage
+\input{chapters/summary}
+\cleardoublepage
+% \input{}
+% \cleardoublepage
+% \input{}
+% \cleardoublepage
+% ...
+%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{bibliography/IEEEtranN}
+\bibliography{bibliography/references}
+\addcontentsline{toc}{chapter}{Bibliography}
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\appendix
+%\input{chapters/appendix_text}
+%\cleardoublepage
+%\input{chapters/appendix_datasheets}
+
+\end{document}

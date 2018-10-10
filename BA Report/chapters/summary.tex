@@ -1,0 +1,14 @@
+\chapter{Summary}
+This chapter gives a brief conclusion of the results and an outlook.
+
+\section{Conclusion}
+
+The RRT* algorithm is proved to be highly suitable for finding paths between two points. In comparison with other methods, it is adaptable to high-dimensional spaces. However, to generate feasible path in large spaces and to get optimal results, long calculation time is required, which is a major drawback of this method. Otherwise, paths, like the one for object scanning (see Section \ref{sec:object_scanning}), would result in a zig-zag-pattern. Although \textit{Scubo} is able to handle such kind of trajectories, they are not pleasing in an efficiency matter.
+
+\section{Outlook}
+
+In a further step, the generated paths need to be smoothed in a post-processing step in order to remove the zig-zag-pattern. Furthermore, the configuration space can be expanded in order to produce a trajectory consisting of position and orientation information. An implementation in C++/ROS and the combination with a trajectory controller is required to test the path planner on the real system. \\
+
+The path planner developed in this bachelor thesis requires information of the static map in order to produce feasible paths from a fixed starting position. However, this rarely the case in real world application. In addition to static, there are also dynamic obstacles. Therefore, an real-time RRT* algorithm in combination with SLAM must be developed in order to recognize moving obstacles and to locally re-plan the path. Additionally, an object identification algorithm must be produced in order to autonomously plan scanning routes. 
+
+   
