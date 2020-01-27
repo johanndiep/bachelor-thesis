@@ -4,9 +4,9 @@ This GitLab repository contains the code for the "Path Planning for an Omnidirec
 
 ## Context
 
-Scubo is a submersible ROV (remotely operated vehicle) developed in the context of a focus project at ETH Zurich. Due to the arrangement of eight non-moving propulsion units and the superposition of its forces, it is able to move in any direc- tion without prior change of its orientation. Besides, it is equipped with six cameras pointing in each direction and the necessary hardware for autonomy. Several bachelor theses are concerned with the software implementation of an autonomous path following system.
-
 ![Scubo](https://i.imgur.com/RVaz3Mf.png)
+
+Scubo is a submersible ROV (remotely operated vehicle) developed in the context of a focus project at ETH Zurich. Due to the arrangement of eight non-moving propulsion units and the superposition of its forces, it is able to move in any direc- tion without prior change of its orientation. Besides, it is equipped with six cameras pointing in each direction and the necessary hardware for autonomy. Several bachelor theses are concerned with the software implementation of an autonomous path following system.
 
 This bachelor thesis discusses the implementation of an offline global path planning algorithm for the Scubo robot. The algorithm uses a point cloud of the environment to generate a set of collision-free waypoints between an initial and a goal state for the trajectory controller to follow. Since the robot is capable of omnidirectional movements, the generated path does not have to satisfy any kinematic or dynamic constraints of the system other than avoiding collision with obstacles.
 
@@ -19,7 +19,7 @@ The report explains the basic idea behind available path planning methods are ex
 The path planner was implemented and tested on [Matlab](https://ch.mathworks.com/de/products/matlab.html).
 
 
-## Example
+## Example
 
 ![Planner](https://i.imgur.com/D6qn3Gg.png)
 
