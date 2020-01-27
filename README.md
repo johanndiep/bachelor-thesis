@@ -10,6 +10,7 @@ Scubo is a submersible ROV (remotely operated vehicle) developed in the context 
 
 This bachelor thesis discusses the implementation of an offline global path planning algorithm for the Scubo robot. The algorithm uses a point cloud of the environment to generate a set of collision-free waypoints between an initial and a goal state for the trajectory controller to follow. Since the robot is capable of omnidirectional movements, the generated path does not have to satisfy any kinematic or dynamic constraints of the system other than avoiding collision with obstacles.
 
+## Method
 
 The report explains the basic idea behind available path planning methods are explained on a conceptual level at first. In a second step, the implementation of the path planning algorithm using a variant of the rapidly-exploring random tree (RRT) method is presented in more detail. Lastly, the algorithm is used in a practical application where the goal is to scan an object from all sides under different angles. In this case, the developed path planner in combination with a traveling salesman problem solver proves to be highly suitable to generate a collision-free and cost-efficient path around an object.
 
