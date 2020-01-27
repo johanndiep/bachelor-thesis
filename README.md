@@ -16,7 +16,8 @@ The report explains the basic idea behind available path planning methods are ex
 
 ## Installation
 
-The path planner was implemented and tested on [Matlab](https://ch.mathworks.com/de/products/matlab.html).
+* The path planner algorithm was implemented and tested on [Matlab](https://ch.mathworks.com/de/products/matlab.html).
+* [Paraview](https://www.paraview.org/) was used for better visualization.
 
 
 ## Example
