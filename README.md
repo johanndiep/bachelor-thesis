@@ -21,7 +21,8 @@ The path planner was implemented and tested on [Matlab](https://ch.mathworks.com
 
 ## Example
 
-![Planner](https://i.imgur.com/D6qn3Gg.png)
+![Planner in 2D](https://i.imgur.com/WV7Zq71.png)
+![Planner in 3D](https://i.imgur.com/D6qn3Gg.png)
 
 ## Documentation
 
