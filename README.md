@@ -36,3 +36,4 @@ The core of this work is based on the publication ["Sampling-based Algorithms fo
 ## Authors
 
 * Johann Diep (BSc Student Mechanical Engineering, ETH Zurich, jdiep@student.ethz.ch)
+* In the context of the "Scubo" focusproject.
