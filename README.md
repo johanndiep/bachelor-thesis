@@ -12,7 +12,7 @@ This bachelor thesis discusses the implementation of an offline global path plan
 
 ## Method
 
-The report explains the basic idea behind available path planning methods are explained on a conceptual level at first. In a second step, the implementation of the path planning algorithm using a variant of the rapidly-exploring random tree (RRT) method is presented in more detail. Lastly, the algorithm is used in a practical application where the goal is to scan an object from all sides under different angles. In this case, the developed path planner in combination with a traveling salesman problem solver proves to be highly suitable to generate a collision-free and cost-efficient path around an object.
+The report explains the basic idea behind available path planning methods on a conceptual level at first. In a second step, the implementation of the path planning algorithm using a variant of the rapidly-exploring random tree (RRT) method is presented in more detail. Lastly, the algorithm is used in a practical application where the goal is to scan an object from all sides under different angles. In this case, the developed path planner in combination with a traveling salesman problem solver proves to be highly suitable to generate a collision-free and cost-efficient path around an object.
 
 ## Installation
 
